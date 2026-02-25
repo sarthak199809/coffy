@@ -37,7 +37,7 @@ export default function Environment() {
           <div className="relative w-full max-w-md aspect-square border-8 border-white bg-bg shadow-[16px_16px_0px_0px_var(--color-lime)] transform -rotate-3 hover:rotate-0 transition-transform duration-300 overflow-hidden">
             {/* TODO: Replace with an image of nature/travel */}
             <img
-              src="/assets/Gemini_Generated_Image_olnqtxolnqtxolnq.png"
+              src="assets/Gemini_Generated_Image_olnqtxolnqtxolnq.png"
               alt="Clean Mountains"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
             />

@@ -17,7 +17,7 @@ RUN npm install --omit=dev
 
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/server.js ./
-COPY --from=builder /app/.env.local ./ .env
+COPY --from=builder /app/.env.local ./.env
 
 EXPOSE 3000
 
