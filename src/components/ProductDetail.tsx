@@ -11,7 +11,7 @@ export default function ProductDetail() {
         <div className="flex-1 flex flex-col gap-8">
           <div className="w-full aspect-square border-8 border-ink bg-white shadow-[16px_16px_0px_0px_var(--color-ink)] overflow-hidden">
             <img
-              src="assets/Gemini_Generated_Image_78t9k678t9k678t9.png"
+              src="/assets/Gemini_Generated_Image_78t9k678t9k678t9.png"
               alt="Coffy Action Shot"
               className="w-full h-full object-cover"
             />
@@ -19,7 +19,7 @@ export default function ProductDetail() {
           <div className="grid grid-cols-2 gap-8">
             <div className="w-full aspect-square border-4 border-ink bg-white shadow-[8px_8px_0px_0px_var(--color-ink)] overflow-hidden">
               <img
-                src="assets/Gemini_Generated_Image_jl1g7ojl1g7ojl1g.png"
+                src="/assets/Gemini_Generated_Image_jl1g7ojl1g7ojl1g.png"
                 alt="Coffy Texture"
                 className="w-full h-full object-cover"
               />
@@ -70,7 +70,7 @@ export default function ProductDetail() {
             </NeoCard>
             <NeoCard variant="white" elevation="sm" className="flex flex-col gap-4 sm:col-span-2 overflow-hidden relative group">
               <img
-                src="assets/Gemini_Generated_Image_s3xsbss3xsbss3xs.png"
+                src="/assets/Gemini_Generated_Image_s3xsbss3xsbss3xs.png"
                 alt="Chikmagalur Plantation"
                 className="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:opacity-40 transition-opacity"
               />

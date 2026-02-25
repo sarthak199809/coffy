@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="relative w-full max-w-md aspect-[3/4] border-8 border-ink bg-white shadow-[16px_16px_0px_0px_var(--color-ink)] overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-300">
           {/* TODO: Replace src with the uploaded tube image */}
           <img
-            src="assets/Gemini_Generated_Image_2sn2yr2sn2yr2sn2.png"
+            src="/assets/Gemini_Generated_Image_2sn2yr2sn2yr2sn2.png"
             alt="Coffy Tube"
             className="w-full h-full object-cover"
           />
