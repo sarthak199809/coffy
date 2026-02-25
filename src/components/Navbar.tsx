@@ -3,7 +3,7 @@ import NeoButton from './NeoButton';
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-bg border-b-4 border-ink px-6 py-4 flex items-center justify-between">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-bg border-b-4 border-ink px-4 md:px-6 py-4 flex items-center justify-between max-w-[100vw]">
       <div className="font-display text-3xl tracking-tighter">
         COFFY<span className="text-orange">.</span>
       </div>

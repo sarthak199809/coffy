@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen pt-24 pb-12 px-6 flex flex-col md:flex-row items-center justify-center gap-12 max-w-7xl mx-auto">
+    <section className="min-h-screen pt-24 pb-12 px-6 flex flex-col md:flex-row items-center justify-center gap-12 max-w-7xl mx-auto overflow-hidden">
       <div className="flex-1 flex flex-col items-start gap-8 z-10">
         <div className="inline-block bg-orange text-ink font-bold px-4 py-1 border-2 border-ink shadow-[2px_2px_0px_0px_var(--color-ink)] uppercase tracking-widest text-sm">
           The Anti-Instant Revolution
