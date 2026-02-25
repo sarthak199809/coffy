@@ -104,7 +104,7 @@ export default function Comparison() {
         {/* The Math Section */}
         <div id="math" className="mt-16 bg-ink text-white border-4 border-ink shadow-[12px_12px_0px_0px_var(--color-orange)] p-8 md:p-16 flex flex-col md:flex-row items-center justify-between gap-12 relative overflow-hidden group">
           <img
-            src="/assets/Gemini_Generated_Image_fla7y2fla7y2fla7.png"
+            src={`${import.meta.env.BASE_URL}assets/Gemini_Generated_Image_fla7y2fla7y2fla7.png`}
             alt="Iced Coffee Pour"
             className="absolute inset-0 w-full h-full object-cover opacity-10 group-hover:opacity-20 transition-opacity"
           />
